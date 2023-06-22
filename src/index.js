@@ -52,7 +52,7 @@ const ramenImgFunc = () => {
         //console.log(ramen)
         ramenImg.addEventListener("click", () => {
             selectedRamen= ramen
-          ramenlistPropagator()
+          ramenlist()
           console.log("yeehaw")
         })
     });
